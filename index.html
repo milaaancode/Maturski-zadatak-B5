@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body style="background-color: #f0e68c;">
+    <div class="podnaslov">
+        <h2>
+            Zvuci Instrumenata
+        </h2>
+    </div>
+    <table>
+        <tr>
+            <th>Naziv Instrumenta</th>
+            <th>Slika Instrumenta</th>
+            <th>Zvuk Instrumenta</th>
+        </tr>
+        <tr>
+            <td style="font-size: 20px; width: 50; height: 50;">Gitara</td>
+            <td>
+                <a href="https://sr.wikipedia.org/wiki/%D0%93%D0%B8%D1%82%D0%B0%D1%80%D0%B0" 
+                target="_blank"><img src="gitara.jpg" style="width: 80px; height: 80px" /></a>
+            </td>
+            <td>
+                <audio src="https://upload.wikimedia.org/wikipedia/commons/3/34/A-major.ogg" id="gitara"></audio>
+                <img src="zvuk.png" style="width: 80px; height: 80px"
+                     onmouseover="Kreni('gitara')" 
+                     onmouseout="Prekini('gitara')"/>
+                <br />
+                <a href="https://sr.wikipedia.org/wiki/%D0%96%D0%B8%D1%87%D0%B0%D0%BD%D0%B8_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8" target="_blank">Saznaj vise</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px">Violina</td>
+            <td>
+                <a href="https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0"
+                 target="_blank"><img src=violina.jpg style="width: 80px; height: 80px" /></a>
+            </td>
+            <td>
+                <audio src="https://upload.wikimedia.org/wikipedia/commons/f/f4/En-us-violin.ogg" id="violina"></audio>
+                    <img src="zvuk.png" style="width: 80px; height: 80px"
+                     onmouseover="Kreni('violina')"
+                     onmouseout="Prekini('violina')" />
+                <br />
+                <a href="https://sr.wikipedia.org/wiki/%D0%96%D0%B8%D1%87%D0%B0%D0%BD%D0%B8_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8" target="_blank">Saznaj vise</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px">Klavir</td>
+            <td>
+                <a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D0%B2%D0%B8%D1%80"
+                 target="_blank"><img src="klavir.jpg" style="width: 80px; height: 80px" /></a>
+            </td>
+            <td>                
+                <audio src="klavir.mp3" id="klavir"></audio>
+                    <img src="zvuk.png" style="width: 80px; height: 80px" 
+                     onmouseover="Kreni('klavir')"
+                     onmouseout="Prekini('klavir')"/>
+                <br />
+                <a href="https://sr.wikipedia.org/wiki/%D0%96%D0%B8%D1%87%D0%B0%D0%BD%D0%B8_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8" target="_blank">Saznaj vise</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px">Bubnjevi</td>
+            <td>
+                <a href="https://sr.wikipedia.org/wiki/%D0%91%D1%83%D0%B1%D1%9A%D0%B5%D0%B2%D0%B8"
+                 target="_blank"><img src="bubnjevi.jpg" style="width: 80px; height: 80px"/></a>
+            </td>
+            <td>
+                <audio src="bubnjevi.mp3" id="bubnjevi"></audio>
+                    <img src="zvuk.png" style="width: 80px; height: 80px"
+                     onmouseover="Kreni('bubnjevi')"
+                     onmouseout="Prekini('bubnjevi')" />
+                <br />
+                <a href="https://sr.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D1%80%D0%B0%D1%99%D0%BA%D0%B5" target="_blank">Saznaj vise</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px">Harmonika</td>
+            <td>
+                <a href="https://sr.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0" 
+                target="_blank"><img src="harmonika.jpg" style="width: 80px; height: 80px" /></a>
+            </td>
+            <td>
+                <audio 
+                src="harmonika.mp3" 
+                id="harmonika">
+                </audio>
+                    <img src="zvuk.png" style="width: 80px; height: 80px"
+                     onmouseover="Kreni('harmonika')"
+                     onmouseout="Prekini('harmonika')" />
+                <br />
+                <a href="https://sr.wikipedia.org/wiki/%D0%90%D0%B5%D1%80%D0%BE%D1%84%D0%BE%D0%BD%D0%B8_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8" target="_blank">Saznaj vise</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px">Kontrafagot</td>
+            <td>
+                <a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D1%84%D0%B0%D0%B3%D0%BE%D1%82" target="_blank">
+                    <img src="kontrafagot.jpg" style="width: 80px; height: 80px" /></a>
+            </td>
+            <td>
+                <audio src="Fagot.mp3" id="kontrafagot"></audio>
+                <img src="zvuk.png" style="width: 80px; height: 80px"
+                     onmouseover="Kreni('kontrafagot')"
+                     onmouseout="Prekini('kontrafagot')" />
+                <br />
+                <a href="https://sr.wikipedia.org/wiki/%D0%94%D1%83%D0%B2%D0%B0%D1%87%D0%BA%D0%B8_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8" target="_blank">Saznaj vise</a>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <p>Copyright &copy; Osnovna Skola "Sonja Marinkovic"</p>
+    </footer>
+</body>
+</html>
